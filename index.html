@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Опитування - Створення нового опитування</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex flex-column min-vh-100 bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">SurveyCreator</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Перемикач навігації">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Створити опитування</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html"> Профіль</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Про додаток</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Вхід</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">Реєстрація</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5 flex-grow-1">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+                
+                <div class="text-center mb-4">
+                    <h1 class="h3 fw-bold text-secondary">Конструктор опитувань</h1>
+                    <p class="text-muted">Сформулюйте запитання та додайте варіанти відповідей для вашої аудиторії.</p>
+                </div>
+
+                <div class="card shadow border-0 rounded-4">
+                    <div class="card-body p-4 p-md-5">
+                        <form action="#" method="get">
+                            
+                            <div class="mb-4">
+                                <label for="mainQuestion" class="form-label fw-semibold fs-5">Запитання <span class="text-danger">*</span></label>
+                                <textarea class="form-control form-control-lg" id="mainQuestion" rows="2" placeholder="Наприклад: Яка ваша улюблена мова програмування?" required></textarea>
+                            </div>
+
+                            <hr class="my-4 text-muted">
+
+                            <div class="mb-4">
+                                <label class="form-label fw-semibold fs-5">Варіанти відповідей <span class="text-danger">*</span></label>
+                                
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text bg-white text-muted">1</span>
+                                    <input type="text" class="form-control" placeholder="Введіть перший варіант" required>
+                                </div>
+                                
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text bg-white text-muted">2</span>
+                                    <input type="text" class="form-control" placeholder="Введіть другий варіант" required>
+                                </div>
+                                
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text bg-white text-muted">3</span>
+                                    <input type="text" class="form-control" placeholder="Введіть третій варіант">
+                                </div>
+
+                                <button type="button" class="btn btn-outline-primary btn-sm mt-2">
+                                    + Додати ще один варіант
+                                </button>
+                            </div>
+
+                            <div class="mb-4 form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="allowMultiple">
+                                <label class="form-check-label text-muted" for="allowMultiple">Дозволити вибір кількох варіантів</label>
+                            </div>
+
+                            <div class="d-grid mt-5">
+                                <button type="submit" class="btn btn-success btn-lg fw-bold rounded-pill shadow-sm">
+                                    Опублікувати опитування
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <p class="mb-0 text-white-100">&copy; 2026 SurveyCreator.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
