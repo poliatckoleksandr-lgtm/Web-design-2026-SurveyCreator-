@@ -18,8 +18,9 @@
 * Фреймворк Bootstrap 5 
 
 ## Посилання
-* **Звіт на Google Drive:** [Вставте сюди посилання на ваш Google Docs звіт]
+* **Звіт на Google Drive:** https://drive.google.com/drive/folders/1O5r38EnSmj8xcnv5MkBYwmkmeSSGaQmd?usp=drive_link
 
 * **Робоча версія сайту (GitHub Pages):** https://poliatckoleksandr-lgtm.github.io/Web-design-2026-SurveyCreator-/
+
 
 
