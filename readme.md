@@ -19,4 +19,5 @@
 
 ## Посилання
 * **Звіт на Google Drive:** [Вставте сюди посилання на ваш Google Docs звіт]
-* **Робоча версія сайту (GitHub Pages):** https://github.com/poliatckoleksandr-lgtm/Web-design-2026-SurveyCreator-
+
+* **Робоча версія сайту (GitHub Pages):** https://poliatckoleksandr-lgtm.github.io/Web-design-2026-SurveyCreator-/
