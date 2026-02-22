@@ -1,0 +1,125 @@
+/* Базові налаштування фону та тексту */
+body {
+    /* Темний колір як основа (якщо зображення не завантажиться) */
+    background-color: #0f172a !important; 
+    
+    /* Темний напівпрозорий градієнт + фонове зображення */
+    background-image: 
+        linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.95)), 
+        url('https://images.wallpaperscraft.ru/image/single/gorod_siluet_art_136751_2560x1080.jpg') !important;
+    
+    /* Налаштування відображення фону */
+    background-size: cover !important;
+    background-position: center !important;
+    background-attachment: fixed !important; /* Фон залишається нерухомим при прокрутці */
+    
+    color: #f8fafc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Навігаційна панель */
+.navbar {
+    background-color: #1e293b !important; /* Трохи світліший за фон */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid #334155;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #38bdf8 !important; /* Стильний блакитний акцент */
+}
+
+.nav-link {
+    color: #cbd5e1 !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #38bdf8 !important;
+}
+
+/* Стилізація карток */
+.card {
+    background-color: #1e293b !important;
+    border: 1px solid #334155 !important;
+    border-radius: 16px !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* Текст всередині карток */
+.card-body, .form-label, h1, h2, h3 {
+    color: #f1f5f9 !important;
+}
+
+/* Стилізація полів введення */
+.form-control, .form-select, .input-group-text {
+    background-color: #0f172a !important;
+    border: 1px solid #475569 !important;
+    color: #f8fafc !important;
+    border-radius: 8px;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #38bdf8 !important;
+    box-shadow: 0 0 0 0.25rem rgba(56, 189, 248, 0.25) !important;
+}
+
+.form-control::placeholder {
+    color: #64748b !important;
+}
+
+/* Кнопки */
+.btn-success {
+    background-color: #10b981 !important; /* Смарагдовий акцент */
+    border: none !important;
+    color: #ffffff !important;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.btn-success:hover {
+    background-color: #059669 !important;
+    transform: scale(1.02);
+}
+
+.btn-primary {
+    background-color: #38bdf8 !important;
+    border: none !important;
+    color: #0f172a !important;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background-color: #0ea5e9 !important;
+}
+
+.btn-outline-primary {
+    color: #38bdf8 !important;
+    border-color: #38bdf8 !important;
+}
+.btn-outline-primary:hover {
+    background-color: #38bdf8 !important;
+    color: #0f172a !important;
+}
+
+/* Таблиця для профілю */
+.table {
+    color: #e2e8f0 !important;
+}
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    color: #e2e8f0 !important;
+    background-color: rgba(255, 255, 255, 0.03) !important;
+}
+.table-bordered>:not(caption)>*>* {
+    border-color: #334155 !important;
+}
+
+/* Підвал (Footer) */
+footer {
+    background-color: #0b1120 !important; /* Найтемніший відтінок для підвалу */
+    border-top: 1px solid #1e293b;
+}
